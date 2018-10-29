@@ -30,36 +30,36 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VentanaPricipal));
             this.panelTitle = new System.Windows.Forms.Panel();
-            this.panelLateral = new System.Windows.Forms.Panel();
-            this.panelCuerpo = new System.Windows.Forms.Panel();
             this.btnMinimize = new System.Windows.Forms.PictureBox();
             this.btnClose = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnFinanzas = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelLateral = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
-            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnFinanzas = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelCuerpo = new System.Windows.Forms.Panel();
             this.panelTitle.SuspendLayout();
-            this.panelLateral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelLateral.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTitle
@@ -72,32 +72,6 @@
             this.panelTitle.Name = "panelTitle";
             this.panelTitle.Size = new System.Drawing.Size(1135, 24);
             this.panelTitle.TabIndex = 0;
-            // 
-            // panelLateral
-            // 
-            this.panelLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.panelLateral.Controls.Add(this.panel3);
-            this.panelLateral.Controls.Add(this.panel2);
-            this.panelLateral.Controls.Add(this.panel1);
-            this.panelLateral.Controls.Add(this.button1);
-            this.panelLateral.Controls.Add(this.btnFinanzas);
-            this.panelLateral.Controls.Add(this.pictureBox1);
-            this.panelLateral.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelLateral.Location = new System.Drawing.Point(0, 24);
-            this.panelLateral.Name = "panelLateral";
-            this.panelLateral.Size = new System.Drawing.Size(220, 729);
-            this.panelLateral.TabIndex = 1;
-            // 
-            // panelCuerpo
-            // 
-            this.panelCuerpo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
-            this.panelCuerpo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelCuerpo.ForeColor = System.Drawing.Color.White;
-            this.panelCuerpo.Location = new System.Drawing.Point(220, 24);
-            this.panelCuerpo.Name = "panelCuerpo";
-            this.panelCuerpo.Size = new System.Drawing.Size(915, 729);
-            this.panelCuerpo.TabIndex = 2;
-            this.panelCuerpo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCuerpo_Paint);
             // 
             // btnMinimize
             // 
@@ -125,59 +99,20 @@
             this.btnClose.TabStop = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // pictureBox1
+            // panelLateral
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(52, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(102, 96);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnFinanzas
-            // 
-            this.btnFinanzas.FlatAppearance.BorderSize = 0;
-            this.btnFinanzas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnFinanzas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFinanzas.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFinanzas.ForeColor = System.Drawing.Color.White;
-            this.btnFinanzas.Location = new System.Drawing.Point(6, 131);
-            this.btnFinanzas.Name = "btnFinanzas";
-            this.btnFinanzas.Size = new System.Drawing.Size(208, 68);
-            this.btnFinanzas.TabIndex = 2;
-            this.btnFinanzas.Text = "Mercado Financiero";
-            this.btnFinanzas.UseVisualStyleBackColor = true;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel1.Location = new System.Drawing.Point(1, 131);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(5, 68);
-            this.panel1.TabIndex = 3;
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(6, 200);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(208, 68);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Mercado Financiero";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel2.Location = new System.Drawing.Point(1, 200);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(5, 68);
-            this.panel2.TabIndex = 3;
+            this.panelLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.panelLateral.Controls.Add(this.panel3);
+            this.panelLateral.Controls.Add(this.panel2);
+            this.panelLateral.Controls.Add(this.panel1);
+            this.panelLateral.Controls.Add(this.button1);
+            this.panelLateral.Controls.Add(this.btnFinanzas);
+            this.panelLateral.Controls.Add(this.pictureBox1);
+            this.panelLateral.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelLateral.Location = new System.Drawing.Point(0, 24);
+            this.panelLateral.Name = "panelLateral";
+            this.panelLateral.Size = new System.Drawing.Size(220, 729);
+            this.panelLateral.TabIndex = 1;
             // 
             // panel3
             // 
@@ -201,6 +136,38 @@
             this.panel3.Size = new System.Drawing.Size(220, 729);
             this.panel3.TabIndex = 4;
             // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel7.Location = new System.Drawing.Point(1, 269);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(5, 68);
+            this.panel7.TabIndex = 3;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel9.Location = new System.Drawing.Point(1, 476);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(5, 68);
+            this.panel9.TabIndex = 3;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel8.Location = new System.Drawing.Point(1, 407);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(5, 68);
+            this.panel8.TabIndex = 3;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel6.Location = new System.Drawing.Point(1, 338);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(5, 68);
+            this.panel6.TabIndex = 3;
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
@@ -216,6 +183,62 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(5, 68);
             this.panel5.TabIndex = 3;
+            // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(6, 269);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(208, 68);
+            this.button5.TabIndex = 2;
+            this.button5.Text = "Metodo Black-Scholes";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(6, 476);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(208, 68);
+            this.button7.TabIndex = 2;
+            this.button7.Text = "Reportes";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(6, 407);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(208, 68);
+            this.button6.TabIndex = 2;
+            this.button6.Text = "Cartera";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(6, 338);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(208, 68);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "Metodo Binomial";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -244,6 +267,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Mercado Financiero";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox2
             // 
@@ -255,93 +279,70 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // button4
+            // panel2
             // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(6, 338);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(208, 68);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Metodo Binomial";
-            this.button4.UseVisualStyleBackColor = true;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel2.Location = new System.Drawing.Point(1, 200);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(5, 68);
+            this.panel2.TabIndex = 3;
             // 
-            // panel6
+            // panel1
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel6.Location = new System.Drawing.Point(1, 338);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(5, 68);
-            this.panel6.TabIndex = 3;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel1.Location = new System.Drawing.Point(1, 131);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(5, 68);
+            this.panel1.TabIndex = 3;
             // 
-            // button5
+            // button1
             // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(6, 269);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(208, 68);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "Metodo Black-Scholes";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(6, 200);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(208, 68);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Mercado Financiero";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // panel7
+            // btnFinanzas
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel7.Location = new System.Drawing.Point(1, 269);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(5, 68);
-            this.panel7.TabIndex = 3;
+            this.btnFinanzas.FlatAppearance.BorderSize = 0;
+            this.btnFinanzas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnFinanzas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFinanzas.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinanzas.ForeColor = System.Drawing.Color.White;
+            this.btnFinanzas.Location = new System.Drawing.Point(6, 131);
+            this.btnFinanzas.Name = "btnFinanzas";
+            this.btnFinanzas.Size = new System.Drawing.Size(208, 68);
+            this.btnFinanzas.TabIndex = 2;
+            this.btnFinanzas.Text = "Mercado Financiero";
+            this.btnFinanzas.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // pictureBox1
             // 
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(6, 407);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(208, 68);
-            this.button6.TabIndex = 2;
-            this.button6.Text = "Cartera";
-            this.button6.UseVisualStyleBackColor = true;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(52, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(102, 96);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
-            // panel8
+            // panelCuerpo
             // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel8.Location = new System.Drawing.Point(1, 407);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(5, 68);
-            this.panel8.TabIndex = 3;
-            // 
-            // button7
-            // 
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(6, 476);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(208, 68);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "Reportes";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.panel9.Location = new System.Drawing.Point(1, 476);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(5, 68);
-            this.panel9.TabIndex = 3;
+            this.panelCuerpo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(62)))), ((int)(((byte)(82)))));
+            this.panelCuerpo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelCuerpo.ForeColor = System.Drawing.Color.White;
+            this.panelCuerpo.Location = new System.Drawing.Point(220, 24);
+            this.panelCuerpo.Name = "panelCuerpo";
+            this.panelCuerpo.Size = new System.Drawing.Size(915, 729);
+            this.panelCuerpo.TabIndex = 2;
+            this.panelCuerpo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCuerpo_Paint);
             // 
             // VentanaPricipal
             // 
@@ -357,12 +358,12 @@
             this.Text = "VentanaPricipal";
             this.Load += new System.EventHandler(this.VentanaPricipal_Load);
             this.panelTitle.ResumeLayout(false);
-            this.panelLateral.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panelLateral.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
